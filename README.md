@@ -1,2 +1,0 @@
-# Cypress
-Cypress Test script

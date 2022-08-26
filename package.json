@@ -1,5 +1,22 @@
 {
-  "dependencies": {
+  "name": "cypress_project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo Test starts Now",
+    "posttest": "echo Test Ends now",
+    "test": "cypress run",
+    "yolo_test": "npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "cypress": "^10.6.0"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.2",
+    "cypress-file-upload": "^5.0.8"
   }
 }
